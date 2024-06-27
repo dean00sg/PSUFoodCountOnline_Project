@@ -56,21 +56,29 @@
 </head>
 <body>
     <header>
-        <h1>สวัสดี หน้านี่จะเป็นหน้า Request สำหรับไปหลายๆหน้านะ</h1>
+        <h1>สวัสดี หน้านี่จะเป็นหน้า login สำหรับไปหลายๆหน้านะ</h1>
     </header>
   
     
     <div class="container">
         <div class="card">
-            <h2>ไปหน้า view Index</h2>
+            <h2>ไปหน้า view Index Request</h2>
             <p> หน้า view Index ยาไปลองเล่นตกเเต่งดูนะ  เมื่อกดปุ่มข้างล่างมันจะเด้งไปหน้าเว็ปของยาเลย</p>
             <form action="Request" method="Post" target="_blank">
             <button type="submit" class="btn btn-primary">Index</button>
     </form>
         </div>
     </div>
-    <footer>
-        <p>ติดต่อเรา: info@example.com | โทร: 012-345-6789</p>
-    </footer>
+
+    <div class="container">
+        <div class="card">
+            <h2>ไปหน้า view Index Seller </h2>
+            <p> </p>
+            <form action="Seller" method="Post" target="_blank">
+            <button type="submit" class="btn btn-primary">Index</button>
+    </form>
+        </div>
+    </div>
+  
 </body>
 </html>
