@@ -1,81 +1,127 @@
-﻿<!DOCTYPE html>
+﻿@{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+<!DOCTYPE html>
 <html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+   
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-
-            nav a {
-                color: white;
-                padding: 14px 20px;
-                text-decoration: none;
-                text-align: center;
-            }
-
-                nav a:hover {
-                    background-color: #ddd;
-                    color: black;
-                }
-
-        .container {
-            padding: 20px;
-        }
-
-        .card {
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin: 20px;
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            background-color: #808080;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>หน้า Index seller</h1>
-    </header>
-
-
     <div class="container">
-        <div class="card">
-
-            <p>ยาลองเล่นหน้านี่นะ ของ seller </p>
-
-        </div>
+        <i class="fa fa-file" aria-hidden="true"></i>
+        <header>
+            <h1>Get Started Here</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Text">
+                <button type="button">Search</button>
+            </div>
+            <div class="user-info">
+                <span>DET OA Services</span>
+                <span>DARIKA CHANSOPA</span>
+            </div>
+        </header>
+        <main>
+            <div class="navigation">
+                <ul>
+                    <li class="active">General</li>
+                    <li>IT Services</li>
+                    <li>HR Services</li>
+                    <li>FI Services</li>
+                    <li>Facility Services</li>
+                    <li>Quality Management</li>
+                </ul>
+            </div>
+            <div class="content">
+                <i class="fa fa-file" aria-hidden="true"></i>
+                <h2>Functional Services</h2>
+                <div class="services">
+                    <div class="service">
+                        <a href="#">OT tar Canteen Report</a>
+                        <span class="badge">20</span>
+                    </div>
+                    <div class="service">
+                        <a href="#">Set Out of ice</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">SEA Pending List</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">GDA MarFlos</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">GOA User Gede</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">GOA Services</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">Intermal MEMO</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">HR Services</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">DA Pending List (Requester)</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">Delta Agreement Update Account Information</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">Import Export services</a>
+                        <span class="badge">11</span>
+                    </div>
+                    <div class="service">
+                        <a href="#">DC-FAN Matemat Management</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">IT Service Desk</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">Check Linplovee Routing</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">Trang</a>
+                        <span class="badge"></span>
+                    </div>
+                    <div class="service">
+                        <a href="#">MRD</a>
+                        <span class="badge"></span>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
-    <footer>
-        <p>ติดต่อเรา: info@example.com | โทร: 012-345-6789</p>
-    </footer>
 </body>
 </html>
